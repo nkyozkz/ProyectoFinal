@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+// Variables
+
+$font-title: 2.8rem;
+$font-h2: 2.4rem;
+$font-h3: 2.0rem;
+$font-h5: 1.8rem;
+$font-p: 1.8rem;
+$light-yellow: #fdd037;
+$bg-cl: #f1f1f1;
+$noto: 'Noto Sans', sans-serif;
+
+body{
+    background-color: $bg-cl;
+}
+
+nav{
+    width: 95%;
+
+    img{
+        width: 85px;
+        height: 85px;
+        padding: 4px;
+        bottom: 0;
+        right: 0;
+        
+        ul{
+            list-style-type: none;
+        }
+    }
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+body{
+    font-family: $noto;
+}
+
+h1{
+    font-size: $font-title;
+}
+
+h2{
+    font-size: $font-h2;
+}
+
+h3{
+    font-size: $font-h3;
+}
+
+h5{
+    font-size: $font-h5;
+    text-align: center;
+}
+
+p{
+    font-size: $font-p;
+}
+
+#main{
+    position: relative;
+    display: block;
+}
+
+#content-wrap{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.navbar {
+    background-color: #0295a9;
+}
+
+.bgmain{
+    background-color: #0295a9;
+}
+
+.nav-item {
+    padding: 0em 1.3em;
+}
+
+.nav-link {
+    font-family: $noto;
+    font-size: 1.1em;
+}
+
+.nav-link:hover {
+    color: $light-yellow;
+}
+
+.btn{
+    border: none;
+    border-radius: 2px;
+    padding: 0.7em 1.5em;
+    font-size: 1.5rem;
+}
+
+.btn:hover{
+    transform: scale(0.9);
+}
+
+.text-center{
+    text-align: center;
+}
+
+.presentacion{
+    height: auto;
+    width: 1024px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.content-area{
+    width: 100%;
+    padding: 0;
+    border: 0;
+}
+
+.block-spacer{
+    height: 20px;
+}
+
+.flex-container{
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    list-style: none;
+}
+
+.card{
+    margin-top: 2rem;
+    padding-left: 0px;
+
+    img{
+        margin: auto;
+        padding-top: 15px;
+        height: 100px;
+        width: 100px;
+    }
+}
+
+.card-p{
+    padding-left: 55px;
+}
+
+.info{
+    background: #ddd;
+    box-shadow: rgba(23, 20, 20, 0.624);
+    padding: 3rem;
+}
+
+.box1{
+    padding: 3rem;
+    text-align: center;
+}
+
+.c-link{
+    font-size: $font-h3;
+}
+
+.footer-cont {
+    padding: 3rem 2rem;
+
+    .footer {
+        padding: 5rem;
+
+        ul li {
+            color: #d3d0cb;
+            font-size: 1em;
+            }
+        }
+}
+
+@mixin center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
