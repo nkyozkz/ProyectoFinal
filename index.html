@@ -4,35 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Metas SEO -->
     <meta name="descripcion" content="Somos una fundacion para para perros y gatos sin hogar, aqui les damos una segunda oportunidad. Conoce a nuestros rescatados sin hogar.">
     <meta name="keywords" content="perros, gatos, hogar, animales">
     <title>Hogar de Animales Lupita</title>
-
     <link rel="icon" type="image/jpg" href="img/favicon.png"/>
-
-    <!-- Boostrap css -->
-    <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-
-    <!-- Mi css -->
-    <link rel="stylesheet" href="/css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
 </head>
-
 <body>
     <header>
         <div class="container-fluid bgmain">
             <nav class="navbar navbar-expand-md navbar-dark">
                 <div class="container-fluid">
-                    <a href="/index.html"><img src="img/Logo.svg" alt="logo"></a>
+                    <a href="index.html"><img src="img/Logo.svg" alt="logo"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0"><hr>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="/views/adoptar.html">Adoptar</a>
+                            <a class="nav-link" aria-current="page" href="views/adoptar.html">Adoptar</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="views/contacto.html">Contacto</a>
@@ -42,8 +33,8 @@
                             Apóyanos
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="/views/donar.html">Donar</a></li>
-                        <li><a class="dropdown-item" href="/views/voluntariado.html">Voluntariado</a></li>
+                        <li><a class="dropdown-item" href="views/donar.html">Donar</a></li>
+                        <li><a class="dropdown-item" href="views/voluntariado.html">Voluntariado</a></li>
                         </ul>
                         </li>
                     </ul>
@@ -52,8 +43,7 @@
             </nav>
         </div>
     </header>
-    <!-- Termina nav -->
-    <!-- comienza carousel -->
+
     <div class="container-fluid">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -63,13 +53,13 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                <img src="img/banner1.jpg" class="d-block w-100" alt="banner1">
+                <img src="img/banner1.jpg" class="d-block w-100" alt="banner animales">
                 </div>
                 <div class="carousel-item">
-                <img src="img/banner2.jpg" class="d-block w-100" alt="banner2">
+                <img src="img/banner2.jpg" class="d-block w-100" alt="banner promo">
                 </div>
                 <div class="carousel-item">
-                <img src="img/banner3.jpg" class="d-block w-100" alt="banner3">
+                <img src="img/banner3.jpg" class="d-block w-100" alt="banner accesorios">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -82,54 +72,55 @@
             </button>
         </div>
     </div>
-    <!-- termina carousel -->
-    <!-- Comienza Cards -->
-    <div class="container-fluid">
+
+    <div id="media" class="container-fluid">
         <div class="row adp">
             <div class="card-p col-xs-6 col-md-3 d-flex align-items-stretch">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top card-img" src="img/card1.png" alt="Card image cap">
+                    <img class="card-img-top card-img" src="img/card1.png" alt="Adoptar img">
                     <div class="card-body">
-                        <h5 class="card-title">Quiero Adoptar.</h5>
+                        <h5 class="card-title">Quiero Adoptar</h5>
                         <p class="card-text text-center">Dale un hogar a uno de nuestros animales rescatados.</p>
-                        <a href="/views/adoptar.html" class="btn btn-primary col-12">Saber Mas</a>
+                        <a href="views/adoptar.html" class="btn btn-primary col-12">Saber Mas</a>
                     </div>
                 </div>
             </div>
+
             <div class="card-p col-xs-6 col-md-3 d-flex align-items-stretch">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top card-img" src="img/card2.png" alt="Card image cap">
+                    <img class="card-img-top card-img" src="img/card2.png" alt="Donar img">
                     <div class="card-body">
-                        <h5 class="card-title">Quiero Donar.</h5>
+                        <h5 class="card-title">Quiero Donar</h5>
                         <p class="card-text text-center">Ayúdanos a financiar una mejor calidad de vida para nuestros animales.</p>
-                        <a href="/views/donar.html" class="btn btn-primary col-12">Saber Mas</a>
+                        <a href="views/donar.html" class="btn btn-primary col-12">Saber Mas</a>
                     </div>
                 </div>
             </div>
+
             <div class="card-p col-xs-6 col-md-3 d-flex align-items-stretch">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top card-img" src="img/card3.png" alt="Card image cap">
+                    <img class="card-img-top card-img" src="img/card3.png" alt="Apadrinar img">
                     <div class="card-body">
-                        <h5 class="card-title">Quiero Apadrinar.</h5>
-                        <p class="card-text center-content">Apoya a uno de nuestros animales hasta que encuentre una familia.</p>
-                        <a href="/views/adoptar.html" class="btn btn-primary col-12">Saber Mas</a>
+                        <h5 class="card-title">Quiero Apadrinar</h5>
+                        <p class="card-text text-center">Apoya a uno de nuestros animales hasta que encuentre una familia.</p>
+                        <a href="views/adoptar.html" class="btn btn-primary col-12">Saber Mas</a>
                     </div>
                 </div>
             </div>
+
             <div class="card-p col-xs-6 col-md-3 d-flex align-items-stretch">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top card-img" src="img/card4.png" alt="Card image cap">
+                    <img class="card-img-top card-img" src="img/card4.png" alt="Voluntariado img">
                     <div class="card-body">
-                        <h5 class="card-title">Quiero Ser Voluntario.</h5>
-                        <p class="card-text center-content">Sé parte de nosotros y ayuda a los animales sin hogar.</p>
-                        <a href="/views/voluntariado.html" class="btn btn-primary col-12">Saber Mas</a>
+                        <h5 class="card-title">Quiero Ser Voluntario</h5>
+                        <p class="card-text text-center">Sé parte de nosotros y ayuda a los animales sin hogar.</p>
+                        <a href="views/voluntariado.html" class="btn btn-primary col-12">Saber Mas</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- termina cards -->
-    <!-- comienza section -->
+
     <section class="container-fluid"><hr>
         <div class="row">
             <div class="col-xs-6 col-md-6 box1">
@@ -142,17 +133,15 @@
             </div>
         </div>
     </section>
-    <!-- termina section -->
-    <!-- Info -->
+
     <section class="container-fluid info">
         <div>
             <h2>Tu opinión nos importa</h2>
             <p>Si has participado en alguno de nuestros eventos (ferias de adopción, campañas informativas) déjanos tu feedback.</p>
-            <a href="/views/contacto.html" class="btn">Saber Mas</a>
+            <a href="views/contacto.html" class="btn">Saber Mas</a>
         </div>
     </section>
-    <!-- termina info -->
-    <!-- inicia footer -->
+
     <footer>
         <section class="footer-cont bg-dark ">
             <div class="d-sm-flex flex-row text-white">
@@ -182,7 +171,6 @@
             </div>
         </section>
     </footer>
-    <!-- termina footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
